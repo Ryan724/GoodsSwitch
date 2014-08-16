@@ -1,0 +1,72 @@
+.uploadfile{
+	width:10px;
+	height:0px;
+}
+.uploadfile_div{    
+	float:left;
+	margin:20px;
+    display:inline-block;             
+    background-color:#CCC;        
+}            
+#preview,.uploadfile_div{        
+    width:100px;        
+    height:100px;        
+}
+.listview {
+    background-color: #FFFFFF;
+    border: 1px solid #C8C8C8;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.listview li {
+    padding: 6px 0;
+    position: relative;
+}
+.goods-price{
+	 margin-right: 26px;
+    text-align: right;
+}
+.submit{
+	margin-left:45%;	
+}
+.bg{
+	background-color:e0eee8;
+}
+.picture{ 
+	margin-top:5%; width:100%; padding-left:10px;
+}
+.clearfix{ 
+	zoom:1;
+}
+.askbuy{ 
+	display:none;
+}
+.askbuy h4{ 、
+	font-size:14px; font-weight:bold; margin-top:2%; text-align:center;
+}
+.input-group{
+	margin-right:17%;
+}
+.form_style{
+	background-color:#007AFF;
+	color:#FFFFFF;
+	padding:2% 0;
+	background-color: #FFF;
+	border: 1px solid #C8C8C8;
+	border-radius: 5px;
+	font-size: 12px;
+	margin-bottom:2%;
+	text-align:center;
+}
+.form_style ul{
+	list-style:none;
+}
+.form_style li{ 
+	margin:2% 0;
+}
+.switch-large{
+	min-width:90px;
+}
+.bg{
+	background-color:#e9f1f6;
+}

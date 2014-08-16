@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.goodsswitch.goods.model.pojo.Image" table="goodsImg">
+		<id name="pk_img">
+			<generator class="native"/>
+		</id>
+		<property name="imgUrl"  />
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.goodsswitch.goods.model.pojo.Goods" table="goods">
+		<id name="pk_goods">
+			<generator class="native"/>
+		</id>
+		<property name="pk_promulgator"  />
+		<property name="type"  />
+		<property name="name"  />
+		<property name="price"  />
+		<property name="validdays"  />
+		<property name="starttime"  />
+		<property name="recency"  />
+		<property name="isswitch"  />
+		<property name="switchgoods"  />
+		<property name="isexpress"  />
+		<property name="description"  />
+		<property name="img1"  />
+		<property name="img2"  />
+		<property name="img3"  />
+		<property name="img4"  />
+		<property name="dr"  />
+	</class>
+</hibernate-mapping>
